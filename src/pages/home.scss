@@ -1,0 +1,11 @@
+.table tbody tr {
+    td svg {
+        visibility: hidden;
+    }
+
+    &:hover {
+        td svg {
+            visibility: visible;
+        }
+    }
+}
