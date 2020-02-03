@@ -1,0 +1,42 @@
+$color-green: #1abc9c;
+$color-light-green: #bbebe2;
+
+.table tbody tr {
+    td svg {
+        visibility: hidden;
+    }
+
+    &:hover {
+        td svg {
+            visibility: visible;
+        }
+    }
+}
+
+input {
+    cursor: pointer;
+
+    &:focus {
+        outline: none !important;
+        border: 1px solid $color-green !important;
+        outline-offset: 0px !important;
+    }
+}
+
+.btn-primary {
+    background-color: $color-green;
+    border-color: $color-green;
+
+    &:hover {
+        background-color: $color-green;
+        border-color: $color-green;
+    }
+}
+
+.light-green{
+    background-color: $color-light-green;
+}
+
+svg{
+    color: $color-green;
+}
