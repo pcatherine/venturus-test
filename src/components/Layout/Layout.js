@@ -14,10 +14,8 @@ export default class Layout extends React.Component {
     return (
       <div id="page-area" >
         <div className="px-5 py-4">
-          <h3> <FontAwesome icon="question" className="mr-2" />Venturus Sports </h3>
+          <h3 className="font-weight-bold"> <FontAwesome icon="question" className="mr-2" />Venturus Sports </h3>
         </div>
-
-
 
         <div className="p-5 light-green">
 
